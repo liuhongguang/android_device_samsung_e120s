@@ -46,9 +46,6 @@ TARGET_OTA_ASSERT_DEVICE := SHV-E120S,dali
   TARGET_KERNEL_SOURCE        := kernel/samsung/msm8660-common
 
 
-# Override bootable/recovery/minui/graphics.c
-BOARD_CUSTOM_GRAPHICS := ../../../device/samsung/e120s/recovery/graphics.c
-
 KERNEL_EXTERNAL_MODULES:
 	$(TARGET_OBJCOPY) device/samsung/e120s/kernel/modules/*.ko $(KERNEL_MODULES_OUT)/
 TARGET_KERNEL_MODULES := KERNEL_EXTERNAL_MODULES
