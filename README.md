@@ -16,7 +16,8 @@
 <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-11.0" />
 <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-11.0" />
 <project name="TheMuppets/proprietary_vendor_samsung.git" path="vendor/samsung" remote="github" revision="cm-11.0" />
-<project name="gpillusion/android_device_samsung_e120s" path="device/samsung/e120s" revision="cm-11.0-e120s" />
+<project name="gpillusion/illusion_kernel_e120s" path="kernel/samsung/e120s" revision="master" />
+<project name="gpillusion/android_device_samsung_e120s" path="device/samsung/e120s" revision="master" />
 </manifest>
 ```
 
