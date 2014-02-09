@@ -42,8 +42,8 @@ TARGET_OTA_ASSERT_DEVICE := SHV-E120S,dali
 # BOARD_KERNEL_PAGESIZE       := 2048
 # BOARD_MKBOOTIMG_ARGS        := --ramdisk_offset 0x01400000
 
-  TARGET_KERNEL_CONFIG        := cyanogenmod_e120s_defconfig
-  TARGET_KERNEL_SOURCE        := kernel/samsung/msm8660-common
+  TARGET_KERNEL_CONFIG        := dali_kor_skt_defconfig
+  TARGET_KERNEL_SOURCE        := kernel/samsung/e120s
 
 
 KERNEL_EXTERNAL_MODULES:
