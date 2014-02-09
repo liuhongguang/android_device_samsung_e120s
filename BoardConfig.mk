@@ -42,10 +42,12 @@ TARGET_OTA_ASSERT_DEVICE := SHV-E120S,dali
 # BOARD_KERNEL_PAGESIZE       := 2048
 # BOARD_MKBOOTIMG_ARGS        := --ramdisk_offset 0x01400000
 
-# TARGET_KERNEL_CONFIG        := cyanogenmod_e120s_defconfig
-# TARGET_KERNEL_SOURCE        := kernel/samsung/msm8660-common
+  TARGET_KERNEL_CONFIG        := cyanogenmod_e120s_defconfig
+  TARGET_KERNEL_SOURCE        := kernel/samsung/msm8660-common
 
-TARGET_PREBUILT_KERNEL      := device/samsung/e120s/kernel/zImage
+
+# Override bootable/recovery/minui/graphics.c
+BOARD_CUSTOM_GRAPHICS := ../../../device/samsung/e120s/recovery/graphics.c
 
 KERNEL_EXTERNAL_MODULES:
 	$(TARGET_OBJCOPY) device/samsung/e120s/kernel/modules/*.ko $(KERNEL_MODULES_OUT)/
