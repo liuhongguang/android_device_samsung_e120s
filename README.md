@@ -4,7 +4,7 @@
 ```
 1) mkdir mokee
 2) cd mokee
-3) repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0
+3) repoinit -u http://review.mfunz.com/MoKee/android.git -b kk_mkt
 ```
 
 ### Include the file .repo/local_manifests/local_manifest.xml to allow these additional repositories to be synced:
