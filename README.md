@@ -31,7 +31,7 @@ adb to get vendor
 ```
 . build/envsetup.sh
 lunch
-
+```
 ### Ready to build!
 ```
 choose your device
