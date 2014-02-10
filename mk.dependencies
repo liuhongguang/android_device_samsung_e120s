@@ -2,7 +2,7 @@
   {
     "repository": "android_device_samsung_qcom-common",
     "target_path": "device/samsung/qcom-common",
-    "branch": "cm-11.0"
+    "branch": "kk_mkt"
   },
   {
     "repository": "android_device_samsung_msm8660-common",
