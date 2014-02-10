@@ -1,9 +1,9 @@
 ## Build Instructions for E120S
 
-### Follow the usual instructions to download sources for CM11, e.g. :
+### Follow the usual instructions to download sources for Mokee kk :
 ```
-1) mkdir cm11
-2) cd cm11
+1) mkdir mokee
+2) cd mokee
 3) repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0
 ```
 
